@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+double cube(double num) {
+    double result = num * num * num;
+    return result;
+}
+
+int func()
+{
+
+    double answer = cube(2);
+    cout << answer << endl;
+
+    return 0;
+}
